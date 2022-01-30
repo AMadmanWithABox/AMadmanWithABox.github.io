@@ -1,105 +1,48 @@
-body {
-  font-family: 'Roboto', sans-serif;
-}
-header .row,
-footer .row {
-  display: flex;
-  align-items: center;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D9DE3;
+    color: #F1F1F1;
 }
 
-header {
-  padding: 20px 0;
+#navPanel{
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 0 auto;
+    display: flex;
+    justify-content: left;
 }
 
-header h1 {
-  font-weight: 700;
-  margin: 0;
+#navList {
+    list-style-type: none;
+    display: inline;
+    padding: 0;
 }
 
-header nav {
-  display: flex;
-  justify-content: flex-end;
+#locationBox{
+    border: 0px;
+    background-color: #0D9DE3;
+    color: #F1F1F1;
+    width: auto;
+    font-size: 50px;
 }
 
-header p {
-  padding: 0 20px;
-  margin: 0;
-}
-.jumbotron {
-  display: flex;
-  align-items: center;
-  background-image: url('http://www.851facebook.com/images/hello-space-invaders-lets-have-a-nice-game-old-classic-facebook-timeline-cover-photo-banner-for-fb.jpg');
-  background-size: cover;
-  color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
-}
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+#locationBox:focus{
+    background-color: #00CCFF;
+    outline: none;
+    border-bottom: 3px #4E6969;
+    border-style: solid;
 }
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
-}
-section .container{
-	padding: 20px;
-	margin: 0 0 20px;
-	color: red;
-}
-section .row img {
-  margin: 0 0 30px;
-  width: 100%;
+#temp0{
+
+    font-size: 100px;
 }
 
-.col-md-6 {
-  margin: 0 0 30px;
+#weather0 {
+    font-size: 25px;
 }
 
-.btn.btn-primary {
-  border-radius: 2px;
-  border: 0px;
-  color: #fbd1d5;
-  text-shadow: none;
-  background-color: #ffffff;
+.navItem {
+    display: inline;
 }
-
-.btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #fbd1d5;
-}
-
-.btn-secondary {
-  background-color: #E8DFE0;
-  color: #ffffff;
-  margin: 0 0 30px;
-}
-
-footer {
-  font-size: 12px;
-  padding: 20px 0;
-}
-
-footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li img {
-  width: 32px;
-  height: 32px;
-}
-
-
-
-
-
-
-
