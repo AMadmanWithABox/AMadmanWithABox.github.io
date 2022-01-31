@@ -32,6 +32,7 @@ body{
     outline: none;
     border-bottom: 3px #4E6969;
     border-style: solid;
+    border-radius: 5px;
 }
 
 #temp0{
@@ -41,6 +42,25 @@ body{
 
 #weather0 {
     font-size: 25px;
+}
+
+#hourly{
+    background-color: #00CCFF;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+#timeBox{
+    display: flex;
+    justify-content: left;
+}
+
+.hfcTime{
+    margin: 0px 20px;
+    text-align: center;
 }
 
 .navItem {
