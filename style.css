@@ -53,6 +53,10 @@ body{
     white-space: nowrap;
 }
 
+#hourly::-webkit-scrollbar{
+    display: none;
+}
+
 #timeBox{
     display: flex;
     justify-content: left;
