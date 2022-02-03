@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navPanel">
+            <ul id="navList">
+                <li class="navItem"><input type="text" id="locationBox"></li>
+                <a href="index.html" id="href">
+                    <li class="navItem" id="toButton">Hourly Forecast</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <span id="temp0"></span>
+    <span id="weatherIcon"></span>
+    <div id='weather0'></div>
+    <span id="highLow"></span>
+    <div id="hourly">
+        <span id="toggleBtn">Day Temperatures</span>
+        <h2>Daily Forecast</h2>
+        <div id='timeBox'></div>
+    </div>
+    <script src='dailyScript.js'></script>
+</body>
+
+</html>
