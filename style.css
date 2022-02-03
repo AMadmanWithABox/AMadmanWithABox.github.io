@@ -5,8 +5,9 @@ body{
 }
 
 #navPanel{
-    border-radius: 5px;
-    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #00CCFF;
+    margin: 5px;
     padding: 5px;
     width: 0 auto;
     display: flex;
@@ -21,14 +22,14 @@ body{
 
 #locationBox{
     border: 0px;
-    background-color: #0D9DE3;
+    background-color: #00CCFF;
     color: #F1F1F1;
     width: auto;
     font-size: 50px;
 }
 
 #locationBox:focus{
-    background-color: #00CCFF;
+    background-color: #01BFFF;
     outline: none;
     border-bottom: 3px #4E6969;
     border-style: solid;
@@ -36,7 +37,6 @@ body{
 }
 
 #temp0{
-
     font-size: 100px;
 }
 
@@ -54,12 +54,46 @@ body{
 }
 
 #hourly::-webkit-scrollbar{
+    width: 10px;
+}
+
+#hourly::-webkit-scrollbar-track {
     display: none;
+}
+
+#hourly::-webkit-scrollbar-thumb {
+    background: #01BFFF;
+    border-radius: 10px;
 }
 
 #timeBox{
     display: flex;
     justify-content: left;
+}
+
+#toButton {
+    background-color: #00CCFF;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#href {
+    text-decoration: none;
+    color: #F1F1F1;
+    font-size: 14px;
+}
+
+#toggleBtn{
+    background-color: #0D9DE3;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: -6px;
+    color: #F1F1F1;
+}
+
+#toggleBtn:hover {
+    cursor: pointer;
 }
 
 .hfcTime{
