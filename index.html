@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Weather</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header>
     <nav id="navPanel">
       <ul id="navList">
         <li class="navItem"><input type="text" id="locationBox"></li>
+        <a href="daily.html" id="href">
+          <li class="navItem" id="toButton">Daily Forecast</li>
+        </a>
       </ul>
     </nav>
   </header>
-  
+
   <span id="temp0"></span>
   <span id="weatherIcon"></span>
   <div id='weather0'></div>
@@ -23,4 +28,5 @@
   </div>
   <script src='script.js'></script>
 </body>
+
 </html>
